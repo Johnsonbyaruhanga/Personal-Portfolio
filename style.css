@@ -1,0 +1,196 @@
+body {
+  background-color: aqua;
+  font-family:poppins,sans-serif;
+  margin: 0;
+  padding: 0;
+  right: 0;
+  left: 0;
+  /* background-color: aqua; */
+
+}
+
+
+
+#navbar{
+  background-color:#be3144;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+  align-items: center; 
+  margin-bottom: 1px;
+  border-bottom: 2px;
+}
+
+#nav-list{
+display: flex;
+flex-direction: row;
+font-size: 50px;
+}
+ li{
+  list-style: none;
+  }
+
+  /* a{
+  color: green;
+  text-decoration: none;
+  font-size: 1.5em;
+  /* padding:1rem 2rem; */
+} */
+
+a:hover{
+  background-color: #45567d;
+}
+
+/* welcome section */
+#welcome-section {
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("images/img1.gpg.png"); /* Replace with your image path */
+  background-repeat: no-repeat;
+  background-size: cover; /* Set to "cover" to make it cover the entire background */
+  background-color:#000;
+}
+
+
+  #pic{
+      display: flex;
+      left: 0;
+  }
+  #pic img{
+    width: 70%;
+    height: 30%;
+
+  }
+
+  #intro{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    
+    }
+
+    #intro h1{
+      color: white;
+      font-size: 2.5rem;
+      text-align: left;
+      display: flex;
+      margin-bottom: 0.5px;
+    
+
+      
+      
+      
+      }
+
+    #intro p{
+      color: green;
+      font-size: 2rem;
+      font-style: italic;
+      display: flex;
+      
+      justify-content: center;
+
+      
+    }
+     header>nav>ul>li>a{
+      color: #d5def5;
+      text-decoration: none;
+      font-size: 16px;
+    }
+    header>nav>ul>li>a:hover{
+      color: #dfd3c3;
+      border-bottom: 2px solid #430f58;
+    }
+    .project-tile{
+      display: flex;
+      justify-content: justify;
+      gap: 50px;
+      margin-left: 0%;
+      margin-right: 0%;
+      gap: 0;
+      
+    }
+    .study-of-dynasurs {
+      
+      margin-right: 0%;
+      margin-left: 0%;
+      padding: 0%;
+    }
+
+  
+    
+
+    #contacts{
+      background-color:#be3144;
+      width: 100%;
+      height: 80vh;
+      padding: 1rem 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;  
+      
+    }
+    #contacts-header{
+      text-align: center;
+      font-size: 2rem;
+      justify-content: center;
+    }
+
+    #contacts-p{
+      font-style: italic;
+      font-weight:100;
+      text-align: center;
+      font-size: 2rem;
+    }
+
+    #contact-links{
+       text-align: center;
+      font-style: italic;
+      font-size: 1.8rem;
+      
+    }
+    
+
+
+
+
+
+    }
+
+
+    @media only screen and (max-width:600px){
+      body{
+        background-color: aqua;
+      }
+    }
+    @media only screen (max-width: 768px) {
+      /*For mobile phones:*/
+      [class= "col-"]{
+        width:100%;
+      }
+    }
+    
+      
+    }
+    
+      
+
+
+
+    
+
+
+  
+  
